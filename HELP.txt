@@ -1,0 +1,35 @@
+It easy to use!
+
+There are two ways to use this plugin. You can either edit your theme (file: my-theme/single.php) and add the following snippet: echo myrelposts_getrelated($title);
+(The $title is optional, but let’s you specify a title to to appear before the actual related posts are listed.)
+
+Or you can use a shortcode tag and add it manually to the posts you’d like!
+
+Just add the following shortcode tag: [myrelposts-related title=”my title”]
+(The title is optional, but let’s you specify a title to to appear before the actual related posts are listed.)
+Get related posts and pages, using the list name!
+A new feature in version 1.2 is that you can get a list of related posts, by passing the list name in the shortcode tag!
+[myrelposts-related list=”my related post list”]
+Using the list tag, causes the plugin NOT to look at the current post’s meta information, so use this tag wisely.
+(as a bonus feature, you can use wildcards, text , in the list title.)
+
+There’s more!
+
+The lists you create can be made inactive. This means that you don’t have to scroll down thousands of items, to find the correct one. Simply make it inactive in the plugin options interface and it will be removed from the list.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+It easy to use!
+
+There are two ways to use this plugin. You can either edit your theme (file: my-theme/single.php) and add the following snippet: echo myrelposts_getrelated($title);
+(The $title is optional, but let’s you specify a title to to appear before the actual related posts are listed.)
+
+Or you can use a shortcode tag and add it manually to the posts you’d like!
+
+Just add the following shortcode tag: [myrelposts-related title=”my title”]
+(The title is optional, but let’s you specify a title to to appear before the actual related posts are listed.)
+Get related posts and pages, using the list name!
+A new feature in version 1.2 is that you can get a list of related posts, by passing the list name in the shortcode tag!
+[myrelposts-related list=”my related post list”]
+Using the list tag, causes the plugin NOT to look at the current post’s meta information, so use this tag wisely.
+(as a bonus feature, you can use wildcards, text , in the list title.)
